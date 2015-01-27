@@ -19,12 +19,7 @@ function [] = plotPtCloud(X,varargin)
 %   PLOTSHAPE(X) displays the configuration X if X is m-by-k, or the 
 %   superimposed n configurations if X is m-by-k-by-n.
 %
-%   PLOTSHAPE(X,'ProperyName',PropertyValue) alters the plotting style.
-%   The range of available properties is the same as that of MATLAB's 
-%   plot command; see 'help plot' for more info.
-%
-%   PLOTSHAPE(X,'byobs') and PLOTSHAPE(X,'bylandmark') uses different 
-%   marker styles for different observations or landmarks, respectively.
+%   PLOTSHAPE(X,'ColorType') draws the point cloud with a specific colour.
 %
 %	v0.1 original version (Simon Preston)
 %   v0.2 modifications for handling generic point Clouds (Pratyush Sahay)
